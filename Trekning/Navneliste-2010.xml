@@ -1,0 +1,185 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Person>
+    <Nr>1</Nr>
+    <Navn>Ole Andreas Jensen</Navn>
+    <Ønsker>3,4</Ønsker>
+    <Rest>3,4</Rest>
+  </Person>
+  <Person>
+    <Nr>2</Nr>
+    <Navn>Schistad Leonor Bustillo</Navn>
+    <Ønsker>2,3,5</Ønsker>
+    <Rest>2,3,5</Rest>
+  </Person>
+  <Person>
+    <Nr>3</Nr>
+    <Navn>Thorbjørnsen Rune</Navn>
+    <Ønsker>14,13,9,8,12,11,10,7,6,5,4</Ønsker>
+    <Rest>14,13,9,8,12,11,10,7,6,5,4</Rest>
+  </Person>
+  <Person>
+    <Nr>4</Nr>
+    <Navn>Kirsten Sæter</Navn>
+    <Ønsker>14,13,9,8,12,11,10,7,6,5,4</Ønsker>
+    <Rest>14,13,9,8,12,11,10,7,6,5,4</Rest>
+  </Person>
+  <Person>
+    <Nr>5</Nr>
+    <Navn>Harald Sleire</Navn>
+    <Ønsker>8,9,13,14,5,6,7,10,11,12,15</Ønsker>
+    <Rest>8,9,13,14,5,6,7,10,11,12,15</Rest>
+  </Person>
+  <Person>
+    <Nr>6</Nr>
+    <Navn>Åldstedt Birger</Navn>
+    <Ønsker>10,11,12</Ønsker>
+    <Rest>10,11,12</Rest>
+  </Person>
+  <Person>
+    <Nr>7</Nr>
+    <Navn>Karl E. Kaasen</Navn>
+    <Ønsker>10,11,12,13</Ønsker>
+    <Rest>10,11,12,13</Rest>
+  </Person>
+  <Person>
+    <Nr>8</Nr>
+    <Navn>Moe Vibeke</Navn>
+    <Ønsker>9,8,14,13,2,6,5</Ønsker>
+    <Rest>9,8,14,13,2,6,5</Rest>
+  </Person>
+  <Person>
+    <Nr>9</Nr>
+    <Navn>Fossum Lars O</Navn>
+    <Ønsker>7,6,10,11,5,12,4,3,8,9</Ønsker>
+    <Rest>7,6,10,11,5,12,4,3,8,9</Rest>
+  </Person>
+  <Person>
+    <Nr>10</Nr>
+    <Navn>Fjørtoft Kay E</Navn>
+    <Ønsker>11,12,13,10,9,7,6,5,15</Ønsker>
+    <Rest>11,12,13,10,9,7,6,5,15</Rest>
+  </Person>
+  <Person>
+    <Nr>11</Nr>
+    <Navn>Arve Loktu</Navn>
+    <Ønsker>12,10,7,6,4,3,1,15,16</Ønsker>
+    <Rest>12,10,7,6,4,3,1,15,16</Rest>
+  </Person>
+  <Person>
+    <Nr>12</Nr>
+    <Navn>Oddrunn Nordgaard</Navn>
+    <Ønsker>14,6,12</Ønsker>
+    <Rest>14,6,12</Rest>
+  </Person>
+  <Person>
+    <Nr>13</Nr>
+    <Navn>Dag Stenersen</Navn>
+    <Ønsker>8,7,10,11,5,4,2,1,13</Ønsker>
+    <Rest>8,7,10,11,5,4,2,1,13</Rest>
+  </Person>
+  <Person>
+    <Nr>14</Nr>
+    <Navn>Arne Andersen</Navn>
+    <Ønsker>9,10,11,12,15,16</Ønsker>
+    <Rest>9,10,11,12,15,16</Rest>
+  </Person>
+  <Person>
+    <Nr>15</Nr>
+    <Navn>Kristin Bjørkander</Navn>
+    <Ønsker>14,12,11,10,9,15,16</Ønsker>
+    <Rest>14,12,11,10,9,15,16</Rest>
+  </Person>
+  <Person>
+    <Nr>16</Nr>
+    <Navn>Kjetil Berget</Navn>
+    <Ønsker>7,6,5,4,3,10,11,2,1</Ønsker>
+    <Rest>7,6,5,4,3,10,11,2,1</Rest>
+  </Person>
+  <Person>
+    <Nr>17</Nr>
+    <Navn>Terje Andersen</Navn>
+    <Ønsker>12,10,16,6</Ønsker>
+    <Rest>12,10,16,6</Rest>
+  </Person>
+  <Person>
+    <Nr>18</Nr>
+    <Navn>Knut-Einar Wold</Navn>
+    <Ønsker>6,7,10,11</Ønsker>
+    <Rest>6,7,10,11</Rest>
+  </Person>
+  <Person>
+    <Nr>19</Nr>
+    <Navn>Elizabeth Passano</Navn>
+    <Ønsker>11,10,7,6,12,15,5</Ønsker>
+    <Rest>11,10,7,6,12,15,5</Rest>
+  </Person>
+  <Person>
+    <Nr>20</Nr>
+    <Navn>Frank Andersson</Navn>
+    <Ønsker>10,11,12,15,16,7,6,5,4,3,2</Ønsker>
+    <Rest>10,11,12,15,16,7,6,5,4,3,2</Rest>
+  </Person>
+  <Person>
+    <Nr>21</Nr>
+    <Navn>Magnus Tvete</Navn>
+    <Ønsker>4,5,6,7,10,11,12,14</Ønsker>
+    <Rest>4,5,6,7,10,11,12,14</Rest>
+  </Person>
+  <Person>
+    <Nr>22</Nr>
+    <Navn>Øyvind Hellan</Navn>
+    <Ønsker>2,3,4,5,6,11,12</Ønsker>
+    <Rest>2,3,4,5,6,11,12</Rest>
+  </Person>
+  <Person>
+    <Nr>23</Nr>
+    <Navn>Morten Kvarberg</Navn>
+    <Ønsker>12,11,10</Ønsker>
+    <Rest>12,11,10</Rest>
+  </Person>
+  <Person>
+    <Nr>24</Nr>
+    <Navn>Bente M Nilsen</Navn>
+    <Ønsker>12,11,10</Ønsker>
+    <Rest>12,11,10</Rest>
+  </Person>
+  <Person>
+    <Nr>25</Nr>
+    <Navn>Halvor Lie</Navn>
+    <Ønsker>8,7,10,11,5</Ønsker>
+    <Rest>8,7,10,11,5</Rest>
+  </Person>
+  <Person>
+    <Nr>26</Nr>
+    <Navn>Bjørn Ola Berge</Navn>
+    <Ønsker>14,4,5,6,7,9,10,11,12,13,15,16,17</Ønsker>
+    <Rest>14,4,5,6,7,9,10,11,12,13,15,16,17</Rest>
+  </Person>
+  <Person>
+    <Nr>29</Nr>
+    <Navn>Frank Klæbo</Navn>
+    <Ønsker>13,14,9,8,10,12,7,6,15,5,3,2,1,4</Ønsker>
+    <Rest>13,14,9,8,10,12,7,6,15,5,3,2,1,4</Rest>
+  </Person>
+  <Person>
+    <Nr>27</Nr>
+    <Navn>Lars Ove Sæther</Navn>
+    <Ønsker>14,13,12,11,10,8,9,5,6,7,15,4,16</Ønsker>
+    <Rest>14,13,12,11,10,8,9,5,6,7,15,4,16</Rest>
+  </Person>
+  <Person>
+    <Nr>28</Nr>
+    <Navn>Henning Braaten</Navn>
+    <Ønsker>7,6,5,4,3,10,11,2</Ønsker>
+    <Rest>7,6,5,4,3,10,11,2</Rest>
+  </Person>
+  <Person>
+    <Nr>30</Nr>
+    <Navn>Lars Kolle</Navn>
+    <Ønsker>12,11,10,9,8,7</Ønsker>
+    <Rest>12,11,10,9,8,7</Rest>
+  </Person>
+  <Trekning>
+  </Trekning>
+</NewDataSet>

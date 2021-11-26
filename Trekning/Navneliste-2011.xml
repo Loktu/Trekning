@@ -1,0 +1,300 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Person>
+    <Nr>1</Nr>
+    <Navn>Guri Hirsch</Navn>
+    <Ønsker>12,11,10,9,16,17,4,5,6,7,8,3</Ønsker>
+    <Rest>12,11,10,9,16,17,4,5,6,7,8,3</Rest>
+    <Valgt>12</Valgt>
+  </Person>
+  <Person>
+    <Nr>2</Nr>
+    <Navn>Bente Nilsen</Navn>
+    <Ønsker>7,8,10,11,12,13</Ønsker>
+    <Rest>7,8,10,11,12,13</Rest>
+    <Valgt>7</Valgt>
+  </Person>
+  <Person>
+    <Nr>3</Nr>
+    <Navn>Anders Valland</Navn>
+    <Ønsker>10,12,14,7,5,15,1</Ønsker>
+    <Rest>10,12,14,7,5,15,1</Rest>
+    <Valgt>1</Valgt>
+  </Person>
+  <Person>
+    <Nr>4</Nr>
+    <Navn>Ole Økland</Navn>
+    <Ønsker>11,12,10,13</Ønsker>
+    <Rest>11,12,10,13</Rest>
+    <Valgt>11</Valgt>
+  </Person>
+  <Person>
+    <Nr>5</Nr>
+    <Navn>Kay Fjørtoft</Navn>
+    <Ønsker>14,13,12,11,10,9,6,5,4</Ønsker>
+    <Rest>14,13,12,11,10,9,6,5,4</Rest>
+    <Valgt>0</Valgt>
+  </Person>
+  <Person>
+    <Nr>6</Nr>
+    <Navn>Frank Klæbo</Navn>
+    <Ønsker>13,5,9,10,6,14</Ønsker>
+    <Rest>13,5,9,10,6,14</Rest>
+    <Valgt>13</Valgt>
+  </Person>
+  <Person>
+    <Nr>7</Nr>
+    <Navn>Joakim Taby</Navn>
+    <Ønsker>10,14</Ønsker>
+    <Rest>10,14</Rest>
+    <Valgt>14</Valgt>
+  </Person>
+  <Person>
+    <Nr>8</Nr>
+    <Navn>Neil Luxcey</Navn>
+    <Ønsker>10,14</Ønsker>
+    <Rest>10,14</Rest>
+    <Valgt>0</Valgt>
+  </Person>
+  <Person>
+    <Nr>9</Nr>
+    <Navn>Toralf Hamstad</Navn>
+    <Ønsker>16,8,15,7,3</Ønsker>
+    <Rest>16,8,15,7,3</Rest>
+    <Valgt>3</Valgt>
+  </Person>
+  <Person>
+    <Nr>10</Nr>
+    <Navn>Arve Loktu</Navn>
+    <Ønsker>16,13,12,10,9,6,4,3,1,7,15</Ønsker>
+    <Rest>16,13,12,10,9,6,4,3,1,7,15</Rest>
+    <Valgt>16</Valgt>
+  </Person>
+  <Person>
+    <Nr>11</Nr>
+    <Navn>Thomas Sauder</Navn>
+    <Ønsker>10,14</Ønsker>
+    <Rest>10,14</Rest>
+    <Valgt>10</Valgt>
+  </Person>
+  <Person>
+    <Nr>12</Nr>
+    <Navn>Harald Sleire</Navn>
+    <Ønsker>7,15,8,16,13,12,11,14,6,5,4,3</Ønsker>
+    <Rest>7,15,8,16,13,12,11,14,6,5,4,3</Rest>
+    <Valgt>6</Valgt>
+  </Person>
+  <Person>
+    <Nr>13</Nr>
+    <Navn>Morten Korsvold</Navn>
+    <Ønsker>15,16,13,12,11,10,9,8,7,17</Ønsker>
+    <Rest>15,16,13,12,11,10,9,8,7,17</Rest>
+    <Valgt>15</Valgt>
+  </Person>
+  <Person>
+    <Nr>14</Nr>
+    <Navn>Edvard Ringen</Navn>
+    <Ønsker>5,6,9,11,12,13,14</Ønsker>
+    <Rest>5,6,9,11,12,13,14</Rest>
+    <Valgt>5</Valgt>
+  </Person>
+  <Person>
+    <Nr>15</Nr>
+    <Navn>Kjetil Berget</Navn>
+    <Ønsker>9,10,11,12,13,14,15,6,5,4,3,2,1</Ønsker>
+    <Rest>9,10,11,12,13,14,15,6,5,4,3,2,1</Rest>
+    <Valgt>9</Valgt>
+  </Person>
+  <Person>
+    <Nr>16</Nr>
+    <Navn>Janne Kristin Gjøsteen</Navn>
+    <Ønsker>13,8,7,6,5,10,11,12</Ønsker>
+    <Rest>13,8,7,6,5,10,11,12</Rest>
+    <Valgt>0</Valgt>
+  </Person>
+  <Person>
+    <Nr>17</Nr>
+    <Navn>Mateusz Graczyk</Navn>
+    <Ønsker>4,13,8,7,10,11,5,12,3,9,6</Ønsker>
+    <Rest>4,13,8,7,10,11,5,12,3,9,6</Rest>
+    <Valgt>4</Valgt>
+  </Person>
+  <Person>
+    <Nr>18</Nr>
+    <Navn>Terje Andersen</Navn>
+    <Ønsker>14,12,8</Ønsker>
+    <Rest>14,12,8</Rest>
+    <Valgt>0</Valgt>
+  </Person>
+  <Person>
+    <Nr>19</Nr>
+    <Navn>Ole Hermundstad</Navn>
+    <Ønsker>13,12,11,10,9,6,5,4,3</Ønsker>
+    <Rest>13,12,11,10,9,6,5,4,3</Rest>
+    <Valgt>0</Valgt>
+  </Person>
+  <Person>
+    <Nr>20</Nr>
+    <Navn>Christian Winge</Navn>
+    <Ønsker>10,11,12,9,5,13,14,4,2,7,8</Ønsker>
+    <Rest>10,11,12,9,5,13,14,4,2,7,8</Rest>
+    <Valgt>2</Valgt>
+  </Person>
+  <Person>
+    <Nr>21</Nr>
+    <Navn>Bjørn Ola Berge</Navn>
+    <Ønsker>2,3,4,7,14,15</Ønsker>
+    <Rest>2,3,4,7,14,15</Rest>
+    <Valgt>0</Valgt>
+  </Person>
+  <Person>
+    <Nr>22</Nr>
+    <Navn>Lars Sæther</Navn>
+    <Ønsker>16,15</Ønsker>
+    <Rest>16,15</Rest>
+    <Valgt>0</Valgt>
+  </Person>
+  <Person>
+    <Nr>23</Nr>
+    <Navn>Inger Lise Moe Edvardsen</Navn>
+    <Ønsker>10,11,13</Ønsker>
+    <Rest>10,11,13</Rest>
+    <Valgt>0</Valgt>
+  </Person>
+  <Person>
+    <Nr>24</Nr>
+    <Navn>Csaba Pâkozdi</Navn>
+    <Ønsker>4,13,8,7,10,11,5,12,3,9,6</Ønsker>
+    <Rest>4,13,8,7,10,11,5,12,3,9,6</Rest>
+    <Valgt>8</Valgt>
+  </Person>
+  <Person>
+    <Nr>25</Nr>
+    <Navn>Dag Stenersen</Navn>
+    <Ønsker>7,8,10,11,5,4,2,1</Ønsker>
+    <Rest>7,8,10,11,5,4,2,1</Rest>
+    <Valgt>0</Valgt>
+  </Person>
+  <Person>
+    <Nr>26</Nr>
+    <Navn>Kristin Bjørkander</Navn>
+    <Ønsker>16,15,14,13,12,11,10,9</Ønsker>
+    <Rest>16,15,14,13,12,11,10,9</Rest>
+    <Valgt>0</Valgt>
+  </Person>
+  <Person>
+    <Nr>27</Nr>
+    <Navn>Dariusz Fathi</Navn>
+    <Ønsker>14,13,12,11,10,9,6,5,4</Ønsker>
+    <Rest>14,13,12,11,10,9,6,5,4</Rest>
+    <Valgt>0</Valgt>
+  </Person>
+  <Trekning>
+    <Nr>0</Nr>
+    <Person>2</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>1</Nr>
+    <Person>13</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>2</Nr>
+    <Person>6</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>3</Nr>
+    <Person>1</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>4</Nr>
+    <Person>11</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>5</Nr>
+    <Person>17</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>6</Nr>
+    <Person>14</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>7</Nr>
+    <Person>10</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>8</Nr>
+    <Person>15</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>9</Nr>
+    <Person>7</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>10</Nr>
+    <Person>24</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>11</Nr>
+    <Person>4</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>12</Nr>
+    <Person>12</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>13</Nr>
+    <Person>18</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>14</Nr>
+    <Person>3</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>15</Nr>
+    <Person>23</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>16</Nr>
+    <Person>9</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>17</Nr>
+    <Person>16</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>18</Nr>
+    <Person>8</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>19</Nr>
+    <Person>26</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>20</Nr>
+    <Person>19</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>21</Nr>
+    <Person>27</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>22</Nr>
+    <Person>20</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>23</Nr>
+    <Person>5</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>24</Nr>
+    <Person>22</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>25</Nr>
+    <Person>21</Person>
+  </Trekning>
+  <Trekning>
+    <Nr>26</Nr>
+    <Person>25</Person>
+  </Trekning>
+</NewDataSet>
