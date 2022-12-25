@@ -73,7 +73,7 @@ namespace Trekning
 
       void person_RowChanged(object sender, DataRowChangeEventArgs e)
       {
-         SjekkTrekning();
+         //SjekkTrekning();
       }
 
       public void FillGrid()
