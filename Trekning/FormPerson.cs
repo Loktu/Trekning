@@ -109,32 +109,6 @@ namespace Trekning
 
       }
 
-      private void old_dataGridViewPerson_DragDrop(object sender, DragEventArgs e)
-      {
-         var outlookApplication = new Microsoft.Office.Interop.Outlook.Application();
-         var outlookExplorer = outlookApplication.ActiveExplorer();
-         var n = outlookExplorer.Selection.Count;
-         foreach (MailItem mail in outlookExplorer.Selection)
-         {
-            string navn = mail.SenderName;
-
-            string body = mail.Body;
-            int from = body.IndexOf("From:");
-            if (from > 0)
-            {
-               body = body.Substring(0, from);
-            }
-            var lines = body.Split(new char[] { '\r', '\n', '\t' });
-            var ønsker = FinnØnsker(lines);
-            if (string.IsNullOrEmpty(navn))
-               return;
-
-            Program.trekningDataSet.AddPerson(navn, ønsker);
-         }
-      }
-
-
-
       private void dataGridViewPerson_DragOver(object sender, DragEventArgs e)
       {
          e.Effect = DragDropEffects.Copy;

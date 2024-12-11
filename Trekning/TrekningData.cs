@@ -13,14 +13,11 @@ namespace Trekning
             var column = tablePerson.Columns.Add("Nr", typeof(int));
             column.AutoIncrement = true;
             column = tablePerson.Columns.Add("Navn", typeof(string));
-            //column.Unique = true;
             tablePerson.Columns.Add("Ønsker", typeof(string));
             column = tablePerson.Columns.Add("Rest", typeof(string));
             tablePerson.Columns.Add("Valgt", typeof(int));
 
             var tableTrekning = this.Tables.Add("Trekning");
-            //column = tableTrekning.Columns.Add("Nr", typeof(int));
-            //column.AutoIncrement = true;
             tableTrekning.Columns.Add("Person", typeof(int));
         }
 

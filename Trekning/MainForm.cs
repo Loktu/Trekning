@@ -110,33 +110,6 @@ namespace Trekning
 
         }
 
-        private void old_dataGridViewPerson_DragDrop(object sender, DragEventArgs e)
-        {
-            var outlookApplication = new Microsoft.Office.Interop.Outlook.Application();
-            var outlookExplorer = outlookApplication.ActiveExplorer();
-            var n = outlookExplorer.Selection.Count;
-            foreach (MailItem mail in outlookExplorer.Selection)
-            {
-                string navn = mail.SenderName;
-
-                string body = mail.Body;
-                int from = body.IndexOf("From:");
-                if (from > 0)
-                {
-                    body = body.Substring(0, from);
-                }
-                var lines = body.Split(new char[] { '\r', '\n', '\t' });
-                var ønsker = FinnØnsker(lines);
-                if (string.IsNullOrEmpty(navn))
-                    return;
-
-                userControlResultat.RemoveEvents();
-                Program.trekningDataSet.AddPerson(navn, ønsker);
-                userControlResultat.AddEvents();
-            }
-        }
-
-
 
         private void dataGridViewPerson_DragOver(object sender, DragEventArgs e)
         {
@@ -150,15 +123,22 @@ namespace Trekning
         /// <returns></returns>
         string FinnØnsker(string[] linjer)
         {
-            string ønsker = "";
+            //Finn vedlikeholdsuker
+            var vedlikeholdstekst = vedlikehold.Text.Trim().Split(',');
+            List<int> vedlikeholdsuker = new List<int>();
+            foreach (var uketekst in vedlikeholdstekst)
+            {
+                int uke;
+                if (int.TryParse(uketekst, out uke))
+                {
+                    vedlikeholdsuker.Add(uke);
+                }
 
+            }
+
+            string ønsker = "";
             foreach (string l in linjer)
             {
-                //}
-
-                //int n = linjer.Length;
-                //for (int i = 0; i<n; ++i)
-                //{
                 string linje = "";
                 foreach (char c in l)
                 {
@@ -177,22 +157,24 @@ namespace Trekning
                     continue;
 
                 string[] test = linje.Split(new char[] { ',', '-' });
-                bool ok = true;
+                linje = "";
                 foreach (string testString in test)
                 {
                     int itest;
-                    if (!int.TryParse(testString, out itest))
+                    if (int.TryParse(testString, out itest))
                     {
-                        ok = false;
-                        break;
-                    }
-                    if (itest < 0 || itest > 54)
-                    {
-                        ok = false;
-                        break;
+                        if (!vedlikeholdsuker.Contains(itest))
+                        {
+                            if (itest >= 0 && itest < 55)
+                            {
+                                if (linje.Length > 0)
+                                    linje += ",";
+                                linje += testString;
+                            }
+                        }
                     }
                 }
-                if (ok)
+                if (linje.Length > 0)
                 {
                     // Looks ok
                     ønsker = linje;
